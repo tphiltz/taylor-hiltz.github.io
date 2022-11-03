@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #006600;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #006600;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #006600;
   color: #fff;
 }
 
@@ -119,9 +119,9 @@ h6 {
   height: 36px;
   transition: 0.3s;
 }
-
+/* Changed icon hover color */
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #228b22;
   color: #fff;
   text-decoration: none;
 }
@@ -184,12 +184,12 @@ h6 {
   text-decoration: none;
   color: #fff;
 }
-
+/*changed Nav Menu hover color */
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #006600;
 }
 
 /* Mobile Navigation */
@@ -202,7 +202,9 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  
+  /*updated all nav feature color*/
+  background-color: #006600;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -268,7 +270,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #009900;
 }
 
 @media (min-width: 1024px) {
@@ -312,7 +314,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #001a00;
 }
 
 .section-title h2::after {
@@ -321,7 +323,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #006600;
   bottom: 0;
   left: 0;
 }
@@ -331,12 +333,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About-- COLORS CHANGED
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #003300;
 }
 
 .about .content ul {
@@ -357,7 +359,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #228b22;
   line-height: 0;
 }
 
@@ -366,7 +368,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Facts-- ALL COLORS CHANGED
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
@@ -380,7 +382,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #228b22;
   float: left;
   line-height: 0;
 }
@@ -390,7 +392,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #001a00;
   margin-left: 60px;
 }
 
@@ -399,7 +401,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #001a00;
 }
 
 .facts .count-box a {
@@ -413,11 +415,11 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #006600;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -450,24 +452,24 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #006600;
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Resume -- Updated all font colors to different shades
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #003300;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #003300;
   position: relative;
 }
 
@@ -477,13 +479,14 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #004d00;
   margin-bottom: 10px;
 }
+/* Updated the highlighted background for all years */
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #96e2a8;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -511,7 +514,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #003300;
 }
 
 /*--------------------------------------------------------------
@@ -546,7 +549,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #004d00;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -589,7 +592,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #004d00;
   transition: 0.3s;
   width: 50%;
 }
@@ -636,11 +639,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #004d00;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #004d00;
 }
 
 .portfolio-details .portfolio-info {
@@ -694,10 +697,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #004d00;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #001a00;
 }
 
 .services .icon i {
@@ -711,7 +714,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #009900;
 }
 
 .services .title {
@@ -726,7 +729,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #009900;
 }
 
 .services .description {
@@ -759,7 +762,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #008000;
 }
 
 .testimonials .testimonial-item h4 {
@@ -770,7 +773,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #008000;
   font-size: 26px;
 }
 
@@ -820,11 +823,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #009900;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #009900;
 }
 
 /*--------------------------------------------------------------
@@ -840,14 +843,14 @@ section {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-
+/*icon colors changed*/
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #006600;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -894,14 +897,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #006600;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #006600;
   color: #fff;
 }
 
@@ -990,7 +993,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #006600;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -999,7 +1002,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #006600;
 }
 
 @-webkit-keyframes animate-loading {
